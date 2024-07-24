@@ -1,0 +1,31 @@
+nav {
+    background: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoImg img {
+    width: 8rem;
+    height: 5rem;
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding-inline: 2.5rem;
+    height: 6.5rem;
+}
+
+.navBar a.active{
+    /* color:red; */
+    border-bottom: 2px solid white ;
+    
+  }

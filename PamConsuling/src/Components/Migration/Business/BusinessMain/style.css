@@ -1,0 +1,38 @@
+.businessImg img {
+    width: 100%;
+
+}
+
+.business1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 3rem;
+    margin-inline: 5rem;
+}
+
+
+.busImg1 img {
+    width: 25rem;
+
+}
+
+.businessInfo h2 {
+    color: #434364;
+    font-size: 2rem;
+
+}
+
+.businessInfo p {
+    line-height: 2.8rem;
+    width: 50rem;
+    color:  #434364;
+   
+}
+
+.businessInfo li {
+    line-height: 1.6rem;
+    color:  #434364;
+
+}

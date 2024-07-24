@@ -1,0 +1,44 @@
+.familyHelp {
+    background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5rem;
+}
+
+
+
+.famHelpGrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2rem;
+    gap: 3rem;
+}
+
+.familyHelp h2 {
+    color: #434364;
+    padding-bottom: 5rem;
+    font-size: 36px;
+}
+
+.famHelpGrp  img {
+    width: 7rem;
+}
+.famHelpGrp  h3{
+    color:  #6D31D0;
+    font-size: 20px;
+   
+}
+
+.famHelpGrp  p{
+    color: #434364;
+}
+
+.fh1{
+    width: 15rem;
+}

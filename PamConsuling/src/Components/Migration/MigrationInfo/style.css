@@ -1,0 +1,64 @@
+.migInfos1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.migInfos1 img{
+    height: 27rem;
+    width: 25rem;
+}
+
+.migInfo1 p{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    color: #585779;
+}
+
+.migInfo1 li{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #585779;
+    
+
+}
+
+.migInfo1 h2{
+    color:   #434364;
+    font-size: 2rem;
+  
+}
+
+.migInfo1{
+    width: 55rem;
+}
+
+.migInfos2{
+    display: flex;
+}
+
+.migInfo1 ul{
+    font-size: 1.3rem;
+    color: #585779;
+
+    line-height: 1.9rem;
+}
+
+.migInfoImg2 img
+{
+    height: 23rem;
+    width: 28rem;
+}
+
+.migInfoImg3 img{
+    height: 23rem;
+    width: 25rem;
+}
+
+li span{
+    font-weight: 600;
+    color: black;
+}

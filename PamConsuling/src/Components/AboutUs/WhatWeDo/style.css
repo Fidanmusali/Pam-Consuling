@@ -1,0 +1,29 @@
+.whatWeDo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 5rem;
+    margin-inline: 5rem;
+}
+
+.whatWeDo img{
+    width: 40rem;
+    height: 25rem;
+    margin-top: 5rem;
+
+}
+
+.whatWeDo h2{
+    color: #434364;
+    
+}
+.whatWeDo p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.what1 h2{
+    font-size: 2rem;
+}

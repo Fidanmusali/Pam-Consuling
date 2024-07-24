@@ -1,0 +1,76 @@
+.whoWeAre {
+    display: flex;
+    background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.whoPart1 {
+    color: white;
+}
+
+.whoPart1 h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.whoPart1 p {
+    width: 50rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.whoPart2 img {
+    height: 22rem;
+    width: 15rem;
+}
+
+.whoPart2 {
+    border: 1px solid #6D31D0;
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+    margin-top: 2rem;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+.whoPart2 h3 {
+    color: #6D31D0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.whoPart2 p {
+    color: #434364;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.whoBtn {
+    /* border: 1px solid black; */
+    box-shadow: 3px 3px 3px grey;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    height: 3rem;
+    background: #FFDB80;
+    margin-top: 2rem;
+}
+
+.whoBtn .a {
+    text-decoration: none;
+    color: #6D31D0;
+    font-weight: 600;
+
+}

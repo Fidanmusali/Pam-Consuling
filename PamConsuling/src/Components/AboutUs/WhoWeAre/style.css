@@ -1,0 +1,24 @@
+.whoWeAre1 {
+    background-image: url(../../../../public/Icons/who1.png);
+    height: 30rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.whoTexts {
+    background-color: #6D31D0;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whoTexts p {
+    color: white;
+    font-size: 1.2rem;
+    width: 50rem;
+    text-align: start;
+    line-height: 2rem;
+}

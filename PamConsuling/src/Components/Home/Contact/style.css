@@ -1,0 +1,141 @@
+.contact h2 {
+    color: #434364;
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 36px;
+
+}
+
+.icon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* border: 1px solid; */
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #6D31D0 0%, #AB80EF 104.7%);
+}
+
+.icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* border: 1px solid; */
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #6D31D0 0%, #AB80EF 104.7%);
+}
+
+.phone,
+.mail {
+    text-decoration: none;
+    color: #FFDB80;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.phoneIcon,
+.mailIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFDB80;
+    font-size: 1.2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 3rem;
+    
+    
+
+}
+
+.signIn h2 {
+    color: #434364;
+
+}
+
+.signIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    width: 70rem;
+    height: 40rem;
+    background: linear-gradient(134.65deg, rgba(255, 185, 175, 0.3) -3.89%, #A651FB 94.34%);
+
+}
+
+.signIn input {
+    border: 1px solid gray;
+}
+
+.sign {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs input {
+    width: 24rem;
+    height: 3rem;
+    border-radius: 15px;
+    padding: 12px 20px;
+
+}
+
+.inp1,
+.inp2 {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.inp3 textarea {
+    resize:none;
+    width: 100%;
+    height: 10rem;
+    border-radius: 15px;
+    padding: 12px 20px;
+
+}
+
+input[type=submit] {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: #FFDB80;
+    border: none;
+    color: #6D31D0;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid gray;
+
+}
+
+.inp4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

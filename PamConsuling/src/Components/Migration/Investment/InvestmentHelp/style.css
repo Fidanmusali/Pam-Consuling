@@ -1,0 +1,44 @@
+.investmentHelp h2 {
+    color: #434364;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 7rem;
+
+}
+
+.investmentHelp {
+    background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+    padding-bottom: 8rem;
+}
+
+.invesHelpGrp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-inline: 10rem;
+    line-height: 1.7rem;
+
+}
+
+.ih1 {
+    text-align: center;
+}
+
+.ih1 h3 {
+    color: #6D31D0;
+    font-size: 23px;
+    padding-bottom: 1rem;
+
+}
+
+.ih1 p {
+    font-size: 18px;
+    color:  #434364;
+   
+}
+
+.ih1 img {
+    width: 7rem;
+    padding-bottom: 1rem;
+}

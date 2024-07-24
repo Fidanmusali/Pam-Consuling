@@ -1,0 +1,56 @@
+.cyprus {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+
+    background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+
+}
+
+.cyprus h2 {
+    color: #434364;
+    font-size: 40px;
+
+}
+
+.cyprusGroup {
+    display: flex;
+    padding-top: 5rem;
+    gap: 2rem;
+    padding-inline: 5rem;
+
+}
+
+.cyprusText {
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52rem;
+    line-height: 2rem;
+    font-size: 20px;
+    color: #434364;
+
+
+}
+
+.cypgroup img {
+    width: 8rem;
+}
+.cypgroup h3{
+    color: #6D31D0;
+    font-size: 22px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+   
+} 
+
+.cypgroup p{
+    font-size: 18px;
+    color: #434364;
+
+}
