@@ -16,7 +16,8 @@ const OurServices = () => {
         },
         {
             id: 0,
-            title: 'BUSINESS RELOCATION', description: 'We handle the responsibility of moving your business to Cyprus, so you can focus on your business goals.',
+            title: 'BUSINESS RELOCATION',
+            description: 'We handle the responsibility of moving your business to Cyprus, so you can focus on your business goals.',
             image: Service2
         },
         {
