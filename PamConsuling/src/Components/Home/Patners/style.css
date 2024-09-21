@@ -17,3 +17,30 @@
     padding-top: 3rem;
     width: 100%;
 }
+
+
+@media (max-width: 768px) {
+    .patners h2{
+        color:  #434364;
+       font-size: 30px;
+       font-weight: 600;
+    }
+    
+    .patners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    
+    }
+    .patners img{
+        padding-top: rem;
+        width: 20rem;
+        height: 5rem;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {}

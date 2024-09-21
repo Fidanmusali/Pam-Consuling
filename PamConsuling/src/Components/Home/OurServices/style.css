@@ -80,3 +80,175 @@
     padding-bottom: 1rem;
 }
 
+@media (max-width: 768px) {
+    .ourServices {
+        background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    
+    .ourServices h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: white;
+        padding-bottom: 3rem;
+    
+    
+    }
+    
+    .servicesGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    
+    }
+    
+    .serviceGrp1 img {
+        width: 20rem;
+        height: 13rem;
+    }
+    
+    .serviceGrp1 p {
+        margin-top: 1rem;
+        text-align: center;
+        margin-inline: 2rem;
+    }
+    
+    .serviceGrp1 {
+        /*border: 1px solid;
+        */
+        background-color: white;
+        text-align: center;
+        width: 20rem;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+        line-height: 2rem;
+    }
+    
+    .serviceGrp1 h4 {
+        font-size: 20px;
+        color: #434364;
+    
+    }
+    
+    
+    .servBtn {
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        border: none;
+        color: #6D31D0;
+        background: linear-gradient(96.1deg, #FFEB80 -22.07%, #FDBFA3 123.25%);
+        font-weight: 600;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+    .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .ourServices {
+        background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    
+    .ourServices h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: white;
+        padding-bottom: 3rem;
+    
+    
+    }
+    
+    .servicesGroup {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:3rem;
+        padding-inline: 4rem;
+    
+    }
+    
+    .serviceGrp1 img {
+        width: 22rem;
+        height: 13rem;
+    }
+    
+    .serviceGrp1 p {
+        margin-top: 1rem;
+        text-align: center;
+        margin-inline: 2rem;
+    }
+    
+    .serviceGrp1 {
+        /*border: 1px solid;
+        */
+        background-color: white;
+        text-align: center;
+        width: 22rem;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+        line-height: 2rem;
+    }
+    
+    .serviceGrp1 h4 {
+        font-size: 20px;
+        color: #434364;
+    
+    }
+    
+    
+    .servBtn {
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        border: none;
+        color: #6D31D0;
+        background: linear-gradient(96.1deg, #FFEB80 -22.07%, #FDBFA3 123.25%);
+        font-weight: 600;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+    .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -2,12 +2,22 @@ nav {
     background: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 0 1rem;
+    height: 6.5rem;
+    position: relative;
+    gap: 10rem;
 }
 
 .logoImg img {
     width: 8rem;
     height: 5rem;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
 }
 
 .navBar a {
@@ -16,16 +26,79 @@ nav {
     font-size: 1.2rem;
 }
 
-.navBar {
-    display: flex;
-    align-items: center;
-    gap: 5rem;
-    padding-inline: 2.5rem;
-    height: 6.5rem;
+.navBar a.active {
+    border-bottom: 2px solid white;
 }
 
-.navBar a.active{
-    /* color:red; */
-    border-bottom: 2px solid white ;
-    
-  }
+.bars {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .bars {
+        display: block;
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .navBar {
+        position: absolute;
+        top: 6.5rem;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
+        z-index: 9;
+        width: 100%;
+        height: 100vh;
+        padding: 1rem;
+        display: none;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .navBar.active {
+        display: flex;
+    }
+
+    .navBar a {
+        font-size: 1rem;
+        color: white;
+        padding: 1rem;
+    }
+
+    .logoImg img {
+        width: 5rem;
+        height: 3.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .logoImg img {
+        width: 6rem;
+        height: 4rem;
+    }
+
+    .navBar {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        
+    }
+
+    .navBar a {
+        font-size: 1.1rem;
+    }
+    nav {
+        background: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem;
+        height: 6.5rem;
+        position: relative;
+        gap: 1rem;
+    }
+
+}

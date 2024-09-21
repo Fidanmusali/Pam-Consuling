@@ -21,8 +21,7 @@ const Happen = () => {
                 <div className="hgroup1">
                     <img src={h2} alt="" />
                     <h3>We strategize</h3>
-                    <p>According to your requirements, our team designs a thorough series of steps that will make the relocation process as smooth 
-                    as possible.</p>
+                    <p>According to your requirements, our team designs a thorough series of steps that will make the relocation process as </p>
                 </div>
                 <div className="hgroup1">
                     <img src={h3} alt="" />
