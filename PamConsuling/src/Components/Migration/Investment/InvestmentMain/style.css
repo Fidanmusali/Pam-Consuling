@@ -46,3 +46,111 @@
     color:  #6D31D0;
    
  }
+
+ @media (max-width: 768px) {
+    .investmentMainImg img{
+        width: 100%;
+    }
+    
+    .investGp1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        padding-bottom: 5rem;
+        font-size: 1.1rem;
+    }
+    
+    .investGp1 h2{
+        color:   #434364;
+        font-size: 30px;
+        text-align: start;
+      
+    }
+    .investGp1 p{
+        line-height: 2.7rem;
+        color: #605866;
+    }
+    
+    .i1Img img{
+        width: 20rem;
+    }
+    
+    .investGroup{
+        padding-top: 5rem;
+    }
+    
+    .i1Info{
+        width: 19rem;
+    }
+    
+    .i1Info li{
+        line-height: 1.8rem;
+        color: #605866;
+    
+    }
+    .i1Info ul{
+        color: #605866;
+    
+    }
+    .color{
+        color:  #6D31D0;
+       
+     }
+
+ }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .investmentMainImg img{
+        width: 100%;
+    }
+    
+    .investGp1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        padding-bottom: 5rem;
+        font-size: 1.1rem;
+    }
+    
+    .investGp1 h2{
+        color:   #434364;
+        font-size: 34px;
+      
+    }
+    .investGp1 p{
+        line-height: 2.7rem;
+        color: #605866;
+    }
+    
+    .i1Img img{
+        width: 37rem;
+        height: 25rem;
+    }
+    
+    .investGroup{
+        padding-top: 5rem;
+    }
+    
+    .i1Info{
+        width: 45rem;
+    }
+    
+    .i1Info li{
+        line-height: 1.8rem;
+        color: #605866;
+    
+    }
+    .i1Info ul{
+        color: #605866;
+    
+    }
+    .color{
+        color:  #6D31D0;
+       
+     }
+}

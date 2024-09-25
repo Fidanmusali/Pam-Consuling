@@ -62,3 +62,139 @@ li span{
     font-weight: 600;
     color: black;
 }
+
+@media (max-width: 768px) {
+    .migInfos1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+    .migInfos1 img{
+        height: 20rem;
+        width: 20rem;
+    }
+    
+    .migInfo1 p{
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+        color: #585779;
+    }
+    
+    .migInfo1 li{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        color: #585779;
+        
+    
+    }
+    
+    .migInfo1 h2{
+        color:   #434364;
+        font-size: 2rem;
+      
+    }
+    
+    .migInfo1{
+        width: 20rem;
+    }
+    
+    .migInfos2{
+        display: flex;
+    }
+    
+    .migInfo1 ul{
+        font-size: 1.3rem;
+        color: #585779;
+    
+        line-height: 1.9rem;
+    }
+    
+    .migInfoImg2 img
+    {
+        height: 20rem;
+        width: 20rem;
+    }
+    
+    .migInfoImg3 img{
+        height: 20rem;
+        width: 20rem;
+    }
+    
+    li span{
+        font-weight: 600;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .migInfos1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+    .migInfos1 img{
+        height: 27rem;
+        width: 25rem;
+    }
+    
+    .migInfo1 p{
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+        color: #585779;
+    }
+    
+    .migInfo1 li{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        color: #585779;
+        
+    
+    }
+    
+    .migInfo1 h2{
+        color:   #434364;
+        font-size: 2rem;
+      
+    }
+    
+    .migInfo1{
+        width: 45rem;
+    }
+    
+    .migInfos2{
+        display: flex;
+    }
+    
+    .migInfo1 ul{
+        font-size: 1.3rem;
+        color: #585779;
+    
+        line-height: 1.9rem;
+    }
+    
+    .migInfoImg2 img
+    {
+        height: 23rem;
+        width: 28rem;
+    }
+    
+    .migInfoImg3 img{
+        height: 23rem;
+        width: 25rem;
+    }
+    
+    li span{
+        font-weight: 600;
+        color: black;
+    }
+}

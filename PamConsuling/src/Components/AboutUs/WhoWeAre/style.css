@@ -22,3 +22,43 @@
     text-align: start;
     line-height: 2rem;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .whoWeAre1 {
+        background-image: url(../../../../public/Icons/who1.png);
+        height: 10rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .whoTexts {
+        background-color: #6D31D0;
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whoTexts p {
+        color: white;
+        font-size: 1rem;
+        width: 20rem;
+        text-align: center;
+        line-height: 2rem;
+        
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .whoTexts p {
+        width: 40rem;
+    }
+}

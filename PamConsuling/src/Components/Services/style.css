@@ -46,3 +46,118 @@
     font-size: 20px;
     color: #434364;
 }
+
+@media (max-width: 768px) {
+
+    .services{
+        background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .services h2{
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        padding-bottom: 3rem;
+    }
+    
+    .sGroup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .s1group img{
+        width: 22rem;
+        height: 13rem;
+    }
+    
+    .s1group p{
+        margin-top: 1rem;
+        text-align: center;
+        margin-inline: 2rem;
+    }
+    
+    .s1group{
+        background-color: white;
+        text-align: center;
+        width: 22rem;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+        line-height: 2rem;
+        padding-bottom: 5rem;
+    }
+    
+    .s1group h4{
+        font-size: 20px;
+        color: #434364;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .services{
+        background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .services h2{
+        text-align: center;
+        font-size: 2.5rem;
+        color: white;
+        padding-bottom: 3rem;
+    }
+    
+    .sGroup{
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .s1group img{
+        width: 22rem;
+        height: 13rem;
+    }
+    
+    .s1group p{
+        margin-top: 1rem;
+        text-align: center;
+        margin-inline: 2rem;
+    }
+    
+    .s1group{
+        background-color: white;
+        text-align: center;
+        width: 22rem;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+        line-height: 2rem;
+        padding-bottom: 5rem;
+    }
+    
+    .s1group h4{
+        font-size: 20px;
+        color: #434364;
+    }
+
+}
